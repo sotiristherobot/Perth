@@ -3,6 +3,7 @@ $icon-font-path: '../fonts/';
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
 
 // Header
 header{
@@ -12,10 +13,50 @@ header{
 }
 
 header h1,.h1{
-  font-size: 65pt;
+  font-size: 60pt;
+  font-family: 'Montserrat';
   float: right;
+  color: white;
 }
 header h2,.h2{
   font-size: 34pt;
   float: right;
+  color: white;
+}
+
+.btn{
+  width: 140px;
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  border: white 2px solid;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+
+}
+
+.btn a{
+
+  color: white;
+  text-decoration: none;
+}
+
+.btn a:hover{
+
+  color: white;
+  text-decoration: none;
+}
+
+#header-img-wrapper{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#header-img{
+  position: absolute;
+  left: 120px;
+  bottom: 0;
+
 }
