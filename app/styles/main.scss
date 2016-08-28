@@ -52,11 +52,12 @@ header h2,.h2{
   position: relative;
   height: 100%;
   width: 100%;
+  z-index: 1;
 }
 
 #header-img{
   position: absolute;
   left: 120px;
   bottom: 0;
-
+  z-index: 1;
 }
