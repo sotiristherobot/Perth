@@ -61,3 +61,26 @@ header h2,.h2{
   bottom: 0;
   z-index: 1;
 }
+
+//LongWinded
+#longwinded{
+  height: 100vh;
+  background-color: #F3F3F3;
+  position: relative;
+}
+
+#ipad-longwinded{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#longwinded-content-wrapper{
+  height: 100vh;
+}
+
+#longwinded-content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
