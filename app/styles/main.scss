@@ -4,3 +4,18 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+// Header
+header{
+  width: 100%;
+  height: 100vh;
+  background-color: #4DABDD;
+}
+
+header h1,.h1{
+  font-size: 65pt;
+  float: right;
+}
+header h2,.h2{
+  font-size: 34pt;
+  float: right;
+}
