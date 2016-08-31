@@ -113,3 +113,15 @@ header h2,.h2{
   bottom: 0;
   left: 0;
 }
+
+#getaDogUpYa-content-wrapper{
+
+  height: 100vh;
+
+}
+
+#getaDogUpYa-content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
