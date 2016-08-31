@@ -104,7 +104,7 @@ header h2,.h2{
 
 #getaDogUpYa{
   height: 100vh;
-  background-color: red;
+  background-color: white;
   position: relative;
 }
 
@@ -124,4 +124,13 @@ header h2,.h2{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+.btn-getaDogUpYa{
+  border: #EA4C89 2px solid;
+}
+.btn-getaDogUpYa a{
+  color: #EA4C89;
+}
+.btn-getaDogUpYa a:hover{
+  color: #EA4C89;
 }
